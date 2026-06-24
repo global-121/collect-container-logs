@@ -1,0 +1,11 @@
+# See: https://docs.github.com/en/actions/reference/workflows-and-actions/metadata-syntax
+
+name: Collect Container Logs
+description: Collect logs from all running (Docker) containers.
+
+runs:
+  using: node24
+  main: 'src/main.js'
+branding:
+  icon: file-text
+  color: blue

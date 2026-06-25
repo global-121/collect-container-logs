@@ -1,0 +1,8 @@
+# See: https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates#configuration-options-for-dependabotyml
+version: 2
+
+updates:
+  - directory: '/'
+    package-ecosystem: github-actions
+    schedule:
+      interval: monthly
